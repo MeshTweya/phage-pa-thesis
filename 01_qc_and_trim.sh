@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Thesis 3.6.2-3.6.3: raw QC (FastQC v0.11.9), trimming (BBDuk, BBTools v38.18)
+# raw QC (FastQC v0.11.9), trimming (BBDuk, BBTools v38.18)
 # Usage: bash 01_qc_and_trim.sh <sample_name>
 # Expects: raw_reads/<sample>_R1.fastq(.gz) and raw_reads/<sample>_R2.fastq(.gz)
 set -euo pipefail
