@@ -1,0 +1,24 @@
+# QC -> assembly -> annotation -> synteny. Versions are from the thesis methods.
+# Create with: mamba env create -f envs/phage-genomics.yml   (conda works too, just slower)
+# If a pin does not resolve, loosen it and record the version you actually get in the README.
+name: phage-genomics
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  - fastqc=0.11.9
+  - bbmap=38.18
+  - spades=4.0.0
+  - seqkit
+  - quast=5.0.2
+  - bandage=0.8.1
+  - bowtie2=2.4.4
+  - samtools=1.13
+  - checkv=1.0.1        # CHECK: thesis gives v1.0.1 (3.6.5) and v0.8.1 (3.7.2)
+  - phageterm=1.0.12
+  - pharokka=1.4.0
+  - abricate=1.0.1
+  - pip
+  - pip:
+      - clinker==0.0.23

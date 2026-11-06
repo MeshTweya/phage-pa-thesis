@@ -1,0 +1,13 @@
+# Cocktail, biofilm and Galleria statistics.
+name: phage-r
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-base=4.4.0           # CHECK: thesis also says "R package v4.0" in 3.11.5
+  - r-pheatmap
+  - r-dplyr
+  - r-tidyr
+  - r-readr
+  - r-survival
+  - r-fsa

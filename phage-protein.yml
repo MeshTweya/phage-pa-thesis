@@ -1,0 +1,13 @@
+# Lytic protein extraction, superposition and docking.
+name: phage-protein
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  - biopython
+  - pymol-open-source      # thesis used PyMOL v2.5.0
+  - autodock-vina=1.2.0
+  - openbabel=3.1.1
+  # AutoDock Tools (prepare_ligand4.py / prepare_receptor4.py) is not reliably on conda;
+  # install MGLTools separately if mgltools does not resolve on your channel.
