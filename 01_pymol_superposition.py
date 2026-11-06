@@ -1,8 +1,8 @@
-"""Thesis 3.9.6.3: superpose AlphaFold3 models onto PDB homologues and report RMSD.
+"""superpose AlphaFold3 models onto PDB homologues and report RMSD.
 Run with:  pymol -cq 01_pymol_superposition.py
 Input: pairs.csv with columns protein,model_file,reference_file (local files you downloaded).
 Output: results/superposition_rmsd.csv
-The thesis treats RMSD < 2.0 A over aligned C-alpha atoms as high similarity.
+RMSD < 2.0 A over aligned C-alpha atoms as high similarity.
 """
 import csv, os
 from pymol import cmd
