@@ -1,8 +1,8 @@
 # Genomic and therapeutic characterisation of lytic phages against MDR *Pseudomonas aeruginosa*
 
-Code and analysis settings for my PhD thesis (Biomedical Science, Kisii University). The work covers sequencing and annotation of five lytic phages, in silico characterisation of their lytic proteins, in vitro three-phage cocktail design on the Omnilog platform, biofilm disruption across eight clinical isolates, and efficacy testing in the *Galleria mellonella* model.
+Code and analysis settings for my PhD thesis (Biomedical Science (Medical Microbiology), Kisii University). The work covers sequencing and annotation of five lytic bacteriophages specific for Pseudomonas aeruginosa and in silico characterisation of their lytic proteins.
 
-Published work: [Microbiology Resource Announcements 2025, DOI] and [Microbiology Spectrum 2026, DOI].
+Published work: [Microbiology Resource Announcements 2025, DOI:https://doi.org/10.1128/mra.00795-25] and [Microbiology Spectrum 2026, DOI:https://doi.org/10.1128/spectrum.04096-25].
 
 ## Data
 
@@ -26,9 +26,6 @@ Raw reads: [SRA / BioProject accession]. Reads are not stored in this repository
 | `02_annotation` | 3.7.1, 3.11.1 | Pharokka annotation, Abricate screening |
 | `03_comparative_genomics` | 3.8 | Clinker; VIRIDIC and ViPTree settings |
 | `04_lytic_proteins` | 3.9 | Web-server settings, PyMOL alignment, Vina docking |
-| `05_cocktail_analysis` | 3.10 | Omnilog AUC, inhibition efficiency, HSA, ANOVA |
-| `06_biofilm` | 3.11 | Gene matrix heatmap, biofilm statistics |
-| `07_galleria` | 3.12 | Survival and health-score statistics |
 
 ## Running it
 
