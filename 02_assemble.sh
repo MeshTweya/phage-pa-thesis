@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Thesis 3.6.4: de novo assembly, SPAdes v4.0.0 metaviral mode
+# de novo assembly, SPAdes v4.0.0 metaviral mode
 # Usage: bash 02_assemble.sh <sample_name>
 set -euo pipefail
 S="$1"
