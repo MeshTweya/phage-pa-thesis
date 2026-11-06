@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Thesis 3.11.1: screen assembled isolate genomes against VFDB, Abricate v1.0.1
+# screen assembled isolate genomes against VFDB, Abricate v1.0.1
 # Usage: bash 02_abricate_screen.sh <dir_with_isolate_fastas> <output_dir>
 set -euo pipefail
 IN="$1"; OUT="$2"
